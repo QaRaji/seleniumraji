@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-05T17:46:42 EST" name="Suite" finished-at="2024-03-05T17:47:15 EST" duration-ms="32686">
+    <groups>
+      <group name="errorhandling">
+        <method signature="ErrorValidation.loginerrorvalidation()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" name="loginerrorvalidation" class="raji.tests.ErrorValidation"/>
+      </group> <!-- errorhandling -->
+      <group name="purchase">
+        <method signature="submitordertest.samplestandalonetest(java.util.HashMap)[pri:0, instance:raji.tests.submitordertest@534a5a98]" name="samplestandalonetest" class="raji.tests.submitordertest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-03-05T17:46:42 EST" name="errorTest" finished-at="2024-03-05T17:46:59 EST" duration-ms="16654">
+      <class name="raji.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:42 EST" name="launchapplication" finished-at="2024-03-05T17:46:48 EST" duration-ms="5828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="loginerrorvalidation()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:48 EST" name="loginerrorvalidation" finished-at="2024-03-05T17:46:49 EST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginerrorvalidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:49 EST" name="teardown" finished-at="2024-03-05T17:46:49 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:49 EST" name="launchapplication" finished-at="2024-03-05T17:46:53 EST" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="productcatalogueerror()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:53 EST" name="productcatalogueerror" finished-at="2024-03-05T17:46:59 EST" duration-ms="5618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productcatalogueerror -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.ErrorValidation@5149d738]" started-at="2024-03-05T17:46:59 EST" name="teardown" finished-at="2024-03-05T17:46:59 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- raji.tests.ErrorValidation -->
+    </test> <!-- errorTest -->
+    <test started-at="2024-03-05T17:46:42 EST" name="submitorderTest" finished-at="2024-03-05T17:47:15 EST" duration-ms="32686">
+      <class name="raji.tests.submitordertest">
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:46:42 EST" name="launchapplication" finished-at="2024-03-05T17:46:47 EST" duration-ms="4976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="samplestandalonetest(java.util.HashMap)[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:46:47 EST" name="samplestandalonetest" data-provider="getdata" finished-at="2024-03-05T17:46:51 EST" duration-ms="4260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Aqws@1111, email=rajicse159@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplestandalonetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:46:51 EST" name="teardown" finished-at="2024-03-05T17:46:52 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:46:52 EST" name="launchapplication" finished-at="2024-03-05T17:46:56 EST" duration-ms="3997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="samplestandalonetest(java.util.HashMap)[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:46:56 EST" name="samplestandalonetest" data-provider="getdata" finished-at="2024-03-05T17:47:00 EST" duration-ms="4326" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=ZARA COAT 3, password=Qwer1234, email=rajalakshmi271996@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplestandalonetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:00 EST" name="teardown" finished-at="2024-03-05T17:47:00 EST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:00 EST" name="launchapplication" finished-at="2024-03-05T17:47:05 EST" duration-ms="4758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="samplestandalonetest(java.util.HashMap)[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:05 EST" name="samplestandalonetest" data-provider="getdata" finished-at="2024-03-05T17:47:09 EST" duration-ms="4189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productname=IPHONE 13 PRO, password=Qwer1234, email=rajalakshmi271996@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplestandalonetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:09 EST" name="teardown" finished-at="2024-03-05T17:47:09 EST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchapplication()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:09 EST" name="launchapplication" finished-at="2024-03-05T17:47:14 EST" duration-ms="4951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchapplication -->
+        <test-method signature="orderhistorytest()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:14 EST" name="orderhistorytest" finished-at="2024-03-05T17:47:15 EST" depends-on-methods="raji.tests.submitordertest.samplestandalonetest" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorytest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:raji.tests.submitordertest@534a5a98]" started-at="2024-03-05T17:47:15 EST" name="teardown" finished-at="2024-03-05T17:47:15 EST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- raji.tests.submitordertest -->
+    </test> <!-- submitorderTest -->
+  </suite> <!-- Suite -->
+</testng-results>

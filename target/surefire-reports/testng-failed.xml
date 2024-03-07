@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="raji.testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="errorTest(failed)" verbose="0">
+    <classes>
+      <class name="raji.tests.ErrorValidation">
+        <methods>
+          <include name="productcatalogueerror"/>
+          <include name="teardown"/>
+          <include name="loginerrorvalidation"/>
+          <include name="launchapplication"/>
+        </methods>
+      </class> <!-- raji.tests.ErrorValidation -->
+    </classes>
+  </test> <!-- errorTest(failed) -->
+  <test thread-count="5" parallel="tests" name="submitorderTest(failed)" verbose="0">
+    <classes>
+      <class name="raji.tests.submitordertest">
+        <methods>
+          <include name="samplestandalonetest"/>
+          <include name="teardown"/>
+          <include name="orderhistorytest"/>
+          <include name="launchapplication"/>
+        </methods>
+      </class> <!-- raji.tests.submitordertest -->
+    </classes>
+  </test> <!-- submitorderTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
